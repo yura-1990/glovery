@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +21,7 @@ body {
   z-index: 2;
 }
 
-.header__nav{
+.header__nav {
   height: 71px;
   display: flex;
   box-shadow: 0px 5.69882px 9.49804px rgba(19, 40, 29, 0.098);
@@ -35,38 +36,38 @@ body {
   padding-right: 15px;
 }
 
-.header__content{
+.header__content {
   display: flex;
   justify-content: space-between;
-  align-items: center; 
+  align-items: center;
 }
 
-.header__left{
+.header__left {
   display: flex;
   gap: 48px;
   align-items: center;
 }
 
-.header__list{
+.header__list {
   display: flex;
   gap: 45px;
   align-items: center;
-  
+
 }
 
-.header__link{
+.header__link {
   color: white;
   font-size: 15px;
-  
+
 }
 
-.header__right{
+.header__right {
   display: flex;
   align-items: center;
   gap: 35px;
 }
 
-.btn{
+.btn {
   padding: 10px 36px;
   color: #24475B;
   font-size: 15px;
@@ -77,7 +78,7 @@ body {
 /* header finished */
 /* main starts */
 
-.intro{
+.intro {
   background-color: #1FBD8A;
   height: 100vh;
   position: relative;
@@ -85,7 +86,7 @@ body {
   align-items: center;
 }
 
-.intro__img{
+.intro__img {
   position: absolute;
   width: 975px;
   height: 750px;
@@ -94,31 +95,59 @@ body {
   align-items: flex-start;
   overflow: hidden;
   top: 100px;
-  
+
 }
 
-.intro__img>div{
+.intro__img>div {
   display: flex;
   align-items: center;
   flex-direction: column;
   position: relative;
 }
-.intro__img>div:nth-of-type(2){
+
+.intro__img>div:nth-of-type(2) {
   align-items: flex-start;
   height: 100%;
 }
 
-.intro__image-loc{
+.intro__image-loc {
   position: absolute;
   bottom: -30%;
 }
 
-.intro__image-categ{
+.intro__image-categ {
   position: absolute;
   top: 40%;
 }
 
-.intro__img-code{
+.intro__img-code {
   position: absolute;
   top: 5%;
+}
+
+.intro__content {
+  width: 555px;
+}
+
+.intro__subtitle {
+  font-size: 15px;
+  color: white;
+  padding: 9px 15px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 33px;
+  width: max-content;
+}
+
+.intro__title{
+  color: white;
+  font-size: 60px;
+  margin-top: 17px;
+  margin-bottom: 10px;
+}
+
+.intro__text{
+  color: white;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 44px;
 }
