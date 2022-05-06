@@ -80,7 +80,7 @@ body {
 
 .intro {
   background-color: #1FBD8A;
-  height: 100vh;
+  height: 1172px;
   position: relative;
   display: flex;
   align-items: center;
@@ -127,6 +127,7 @@ body {
 
 .intro__content {
   width: 555px;
+height: 692px;
 }
 
 .intro__subtitle {
@@ -150,4 +151,153 @@ body {
   font-size: 18px;
   line-height: 26px;
   margin-bottom: 44px;
+}
+.btn-li{
+  font-weight: 400;
+font-size: 15px;
+color: #013A51; 
+border-radius: 50px;
+padding: 17px 96px;
+background: white;
+margin-left: 12px;
+}
+.select{
+  max-width: 1130px; 
+  height: 100px;
+  position: absolute;
+  left: 20.76%;
+  right: 10.76%;
+  top: 932px;
+  background: #FBFCF5;
+}
+.img-rady{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sect-offset{
+  background: #FBFCF5;
+  height: 1147px;
+
+}
+.text-contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 150px;
+}
+.text-api{
+  font-weight: 400;
+  font-size: 18px;
+  color: #00CA90  ;
+}
+.text-time{
+  font-weight: 400;
+  font-size: 42px;
+  color: #013A51  ;
+  margin-top: 9px;
+  margin-bottom: 13px;
+}
+.text-projects{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #013A51  ;
+margin-bottom: 40px;
+}
+.link-intr{
+  margin-bottom: 60px;
+}
+.btn-link{
+font-weight: 400;
+font-size: 15px;
+color: #FFFFFF;
+background: #00CA90;
+border-radius: 50px;
+padding: 17px 58px;
+}
+.btn-let{
+font-weight: 400;
+font-size: 15px;
+color: #FFFFFF; 
+border-radius: 50px;
+padding: 17px 96px;
+background: #192F44;
+margin-left: 12px;
+
+}
+.img-frame{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sect-works{
+background: #F2F4E8;
+height: 1162px;
+
+}
+.text-world{
+  max-width: 1160px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px; 
+  display: flex;
+justify-content: space-between;
+
+}
+.text-more{
+  padding-top: 150px;
+}
+.text-inistall{
+  font-weight: 400;
+  font-size: 18px;
+  color: #00CA90  ;
+}
+.text-fort{
+  font-weight: 400;
+  font-size: 41px;
+  line-height: 56px;
+  color: #013A51  ;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.text-count{
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 27px;
+  color: #013A51  ;
+  margin-bottom: 20px;
+}
+.text-mor{
+  font-weight: 400;
+  font-size: 14px;
+  border: 2px solid #00CA90;
+border-radius: 50px;
+padding: 7px 40px;
+width: max-content;
+}
+.text-with{
+  padding-top: 156px;
+}
+.text-macht{
+  font-weight: 400;
+  font-size: 23px;
+  color: #013A51  ;
+  margin-top: 10px;
+  margin-bottom: 13px;
+}
+.text-clon{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.text-clov{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #5C7782  ;
+ 
 }
